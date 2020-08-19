@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">S.R. Citas</string>
+    <string name="label_login">Inicio de sesión</string>
+    <string name="label_email">Correo</string>
+    <string name="label_password">Clave</string>
+    <string name="btn_send">Ingresar</string>
+    <string name="btn_not_register">¿Aún no te has registrado?</string>
+    <string name="label_register">Registro</string>
+    <string name="label_name_register">Nombre completo</string>
+    <string name="btn_register">Confirmar registro</string>
+    <string name="btn_go_login">¿Ya tienes una cuenta?</string>
+    <string name="please_fill_your_register_name">Por favor rellena tus datos</string>
+    <string name="label_welcome">Bienvenido</string>
+    <string name="btn_create_appointment">Registrar citas</string>
+    <string name="btn_my_appointment">Mis citas</string>
+    <string name="btn_logout">Cerrar sesión</string>
+    <string name="label_create_appointment">Reserva cita</string>
+    <string name="label_description">Descripción</string>
+    <string name="label_specialty">Especialidad</string>
+    <string name="label_type">Tipo de cita</string>
+    <string name="type1">Consulta</string>
+    <string name="type2">Examen</string>
+    <string name="type3">Operación</string>
+    <string name="btn_next">siguiente</string>
+    <string name="label_doctor">Médico</string>
+    <string name="label_schedule_date">Fecha para la cita</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="date_format">%1$s-%2$s-%3$s</string>
+    <string name="item_appointment_id">Cita médica nº %1$d</string>
+    <string name="item_appointment_date">Atención el día %1$s</string>
+    <string name="item_appointment_time">A las %1$s</string>
+    <string name="my_appointment">Mis citas Médicas</string>
+    <string name="press_back_again">Presione una vez más para salir</string>
+    <string name="dialog_create_appointment_exit_title">¿Estas seguro que deseas salir?</string>
+    <string name="dialog_create_appointment_exit_message">\"Si abandonas el registro, los datos que habias ingresado se perderan \"</string>
+    <string name="dialog_create_appointment_exit_positive_btn">Si salir</string>
+    <string name="dialog_create_appointment_exit_negative_btn">Continuar registro</string>
+    <string name="validate_appointment_description">La descripción es demasiado corta</string>
+    <string name="label_schedule_time">Hora de la cita médica</string>
+    <string name="label_confirmed_appointment_data">Datos de la cita</string>
+    <string name="validate_appointment_date">Es necesario seleccionar una fecha</string>
+    <string name="validate_appointment_time">Es necesario definir una hora para la cita</string>
+
+</resources>

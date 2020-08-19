@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/bg_gradient"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="60dp"
+        android:paddingTop="10dp"
+        android:text="@string/label_welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/btnCreateAppointment"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_add_circle"
+        style="@style/MenuButton"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_create_appointment"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btnMyAppointment"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:drawableStart="@drawable/ic_schedule"
+        style="@style/MenuButton"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_my_appointment"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorAccent"
+        android:drawableStart="@drawable/ic_baseline_logout"
+        style="@style/MenuButton"
+        android:text="@string/btn_logout"
+        android:textColor="@color/white" />
+
+</LinearLayout>
